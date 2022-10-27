@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react';
-import { Doughnut } from 'react-chartjs-2'
 import Chart from './Chart';
 import Moves from './Moves';
 export default function Details({details}) {
   const labels = details.stats.map((it) => it.base_stat)
 console.log(labels)
-  const [data,setData] = useState()
 
   // console.log(data)
     const img_url = details['sprites']['other']['official-artwork']['front_default']

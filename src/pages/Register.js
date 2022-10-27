@@ -4,12 +4,13 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { NavLink } from 'react-router-dom';
 export default function Register() {
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         // console.log("ho gya")
         console.log(nameRef.current.value)
         try {
-            await axios.post('http://localhost:3001/credential', {
+            await axios.post('https://gentle-oasis-71528.herokuapp.com/credential', {
                 name: nameRef.current.value,
                 username: usernameRef.current.value,
                 password: passwordRef.current.value

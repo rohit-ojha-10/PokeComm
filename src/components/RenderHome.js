@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import background from '../images/home_page.jpg'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { NavLink } from 'react-router-dom';
 import axios from 'axios';
 import { useRef } from 'react';
-import UserHome from './UserHome';
 import PokeCard from './PokeCard';
 export default function RenderHome({data,handleNext,handlePrev,next,prev,isTrue,setIsTrue}) {
   const passwordRef = useRef();
@@ -14,7 +11,7 @@ export default function RenderHome({data,handleNext,handlePrev,next,prev,isTrue,
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post(`http://localhost:3001/credential/login`,
+      await axios.post(`https://gentle-oasis-71528.herokuapp.com/credential/login`,
       {
         username : usernameRef.current.value,
         password : passwordRef.current.value
