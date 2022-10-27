@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+body{
+    overflow-x:hidden;
+    background-color: #EDEDED;
+}
+nav{
+    background-color: #0c1c3e;
+    /* padding-left: 2rem; */
+}
+nav span{
+    color: white;
+
+
+}
+.navbar-brand{
+    margin-left: 2rem;
+}
+.card1{
+    /* height: 25rem; */
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(7, 143, 152); */
+    /* padding:0.5rem 0 1.7rem 0; */
+    margin: 0.4rem;
+    border-radius: 5%;
+    font-family: 'Montserrat', sans-serif;  
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: transform 210ms ease-in-out;   
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.card1:hover{
+    transform: scale(1.035, 1.035);
+}
+.card1:hover > .card1-content > ._ > .card1-img {
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
+    transition: transform 400ms ease-in-out; 
+    transform: scale(1.2, 1.2);
+}
+
+
+.card1-img > img{
+    width: 55%;
+}
+
+.nav-link{
+    margin-right: 5rem;
+}
+
+.card1-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    
+    /* background-color: black; */
+}
+.banner{
+    height: 100vh;
+    width : 100vw;
+    text-align: center;
+    /* background-color: green; */
+    background-image: url('https://wallpaperaccess.com/full/3551101.png');
+    background-repeat:round;
+    filter:brightness(70%);
+   
+}
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.banner-content{
+    position: absolute;
+    width: 50vw;
+    top:5rem;
+    /* bottom: 5rem; */
+    left : 21.5rem;
+    
+}
+.home-card{
+    z-index: 2;
+    /* width : 15rem; */
+    border-radius: 10%;
+    margin: 10px;
+    background-color: #BCCEF8;
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    
+}
+.home-card-img{
+    text-align: center;
+    height: 10rem;
+    border-radius: 10%;
+    margin:1.1rem;
+}
+.home-card-img > img{
+    width: 10rem;
+    max-width: 10rem;
+   
+}
+.home-card-container{
+    position: absolute;
+    top:23rem;
+    left:7.4rem;
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10%;
+    text-align: center;
+
+}
+.home-btn{
+    position: absolute;
+    top:45rem;
+    left:42.7rem;
+}
+.full_container{
+    margin-left: 6rem;
+    /* margin-right: 10rem; */
+    max-width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.login_img{
+    max-width: 40%;
+}
+.login_img > img{
+    width:60%;
+    border-radius: 20px;
+    margin-left: 10rem;
+}
+.loginbox{
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+
+    /* display: inline-block; */
+}
+.detail{
+    display: flex;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+.chart{
+   width : 100%;
+}
+.detail-card-img{
+   width: 50%; 
+}
+.moves{
+  
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
