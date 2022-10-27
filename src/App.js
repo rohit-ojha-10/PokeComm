@@ -1,14 +1,13 @@
 import React from 'react';
 import {useState , useEffect} from "react"
-import PokeCard from './components/PokeCard';
-import {NavLink , BrowserRouter , Routes,Route} from "react-router-dom"
+import { Routes,Route} from "react-router-dom"
 import PokeDetails from './pages/PokeDetails';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import RenderHome from './components/RenderHome';
-import axios from 'axios';
+
 function App() {
   const api_url = "https://pokeapi.co/api/v2/pokemon?limit=12";
   const [data , setData] = useState();
