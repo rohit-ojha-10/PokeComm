@@ -41,6 +41,7 @@ function App() {
     <div className='App'>
     <Navbar/>
     <Routes>
+      <Route path = '/PokeComm' element = {<Home />}></Route>
       <Route path = '/' element = {<Home />}></Route>
       <Route path = '/allpokemons' element = {<RenderHome key = {1} data = {data} handleNext = {handleNext} handlePrev = {handlePrev} next = {data && data.next} prev = {data && data.previous} isTrue = {isTrue} setIsTrue = {setIsTrue}/>}></Route>
       <Route path = '/pokedetails' element = {<PokeDetails />}></Route>
