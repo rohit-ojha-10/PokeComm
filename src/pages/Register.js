@@ -10,7 +10,7 @@ export default function Register() {
         // console.log("ho gya")
         console.log(nameRef.current.value)
         try {
-            await axios.post('https://gentle-oasis-71528.herokuapp.com/credential', {
+            await axios.post('https://pokecommrest.onrender.com/credential', {
                 name: nameRef.current.value,
                 username: usernameRef.current.value,
                 password: passwordRef.current.value
