@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/PokeComm/static/css/main.9dc21704.css",
-    "main.js": "/PokeComm/static/js/main.f25775d0.js",
+    "main.css": "/PokeComm/static/css/main.9a1019ee.css",
+    "main.js": "/PokeComm/static/js/main.338bee7c.js",
     "static/media/home_page.jpg": "/PokeComm/static/media/home_page.31425d56521d4b711670.jpg",
     "index.html": "/PokeComm/index.html",
-    "main.9dc21704.css.map": "/PokeComm/static/css/main.9dc21704.css.map",
-    "main.f25775d0.js.map": "/PokeComm/static/js/main.f25775d0.js.map"
+    "main.9a1019ee.css.map": "/PokeComm/static/css/main.9a1019ee.css.map",
+    "main.338bee7c.js.map": "/PokeComm/static/js/main.338bee7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dc21704.css",
-    "static/js/main.f25775d0.js"
+    "static/css/main.9a1019ee.css",
+    "static/js/main.338bee7c.js"
   ]
 }
