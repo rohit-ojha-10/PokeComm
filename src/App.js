@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import RenderHome from './components/RenderHome';
+import NewHome from './pages/NewHome';
 
 function App() {
   const api_url = "https://pokeapi.co/api/v2/pokemon?limit=12";
@@ -41,8 +42,8 @@ function App() {
     <div className='App'>
     <Navbar/>
     <Routes>
-      <Route path = '/PokeComm' element = {<Home />}></Route>
-      <Route path = '/' element = {<Home />}></Route>
+      <Route path = '/PokeComm' element = {<NewHome />}></Route>
+      <Route path = '/' element = {<NewHome />}></Route>
       <Route path = '/allpokemons' element = {<RenderHome key = {1} data = {data} handleNext = {handleNext} handlePrev = {handlePrev} next = {data && data.next} prev = {data && data.previous} isTrue = {isTrue} setIsTrue = {setIsTrue}/>}></Route>
       <Route path = '/pokedetails' element = {<PokeDetails />}></Route>
       <Route path = '/register' element = {<Register />}></Route>

@@ -11,7 +11,7 @@ export default function Navbar() {
           <NavLink className="navbar-brand" to='/'><span>Poke-Comm</span></NavLink>
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <NavLink className="nav-link" to="/allpokemons"><span>All Pokemons</span></NavLink>
+            <NavLink className="nav-link" to="/allpokemons"><button className = 'btn btn-primary'><span>Login / PokeDex</span></button></NavLink>
             </li>
           </ul>
         </nav>

@@ -21,6 +21,7 @@
     "react-poke-sprites": "^0.0.8",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
     "react-vega": "^7.6.0",
     "vega": "^5.22.1",
     "vega-embed": "^6.21.0",

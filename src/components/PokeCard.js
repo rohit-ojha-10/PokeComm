@@ -25,12 +25,12 @@ export default function PokeCard({data,handleNext,handlePrev,next,prev}) {
     }
     )
   return (
-    <div>
+    <div style={{overflowY:"hidden"}}>
       <div className="card1-container"> 
       {results}
       </div>
       {prev && <button style = {{"margin-left" : "42rem",marginRight : "0.7rem"}}className = 'btn btn-dark btn-lg ml-4 text-center' onClick={handlePrev}>Prev</button>}
-      {next && <button className='btn btn-dark btn-lg ml-4' onClick={handleNext}>Next</button>}
+      {next && <button style = {{"margin-left" : prev ? "" : "44.8rem",marginRight : prev ? "" : "0.7rem"}} className='btn btn-dark btn-lg ml-4' onClick={handleNext}>Next</button>}
     </div>
   )
 }
