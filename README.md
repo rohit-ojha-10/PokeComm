@@ -1,23 +1,22 @@
-# Getting Started with Create React App
+# Pokemon Cards Community
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## View Details
 
-## Available Scripts
+![image](https://github.com/rohit-ojha-10/PokeComm/assets/75873259/0601f9c4-5710-4935-9f5c-c639bd3e199e)
 
-In the project directory, you can run:
 
-### `npm start`
+## Login Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/rohit-ojha-10/PokeComm/assets/75873259/baf99a93-4f7e-4393-b69a-284fc3001bbd)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## All Cards page with pagination
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/rohit-ojha-10/PokeComm/assets/75873259/ed4c061a-66ad-4b82-9ff4-50a3cb27e56f)
+
+
+
 
 ### `npm run build`
 
